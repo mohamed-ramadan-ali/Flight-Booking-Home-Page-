@@ -1,0 +1,719 @@
+@font-face{
+    font-family: sherlyn;
+    src: url(../fonts/Sherlyn-ALRR2.ttf);
+}
+
+@font-face{
+    font-family: SF-UI-DISPLAY;
+    src: url(../fonts/SF-UI-Display-Regular.ttf);
+}
+
+.login{
+    border: solid 1px white;
+    background-color: transparent;
+    border-radius: 25px;
+   padding: 0px;
+   font-size: 15px;
+   color:white;
+}
+
+.fo-color {
+    font-size: 15px !important;
+    color:white !important;
+}
+
+.bg-color{
+    background-color: #1AAFED;
+}
+
+.fo-nav2{
+    color: #1AAFED !important ;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
+
+.fo-nav2:hover{
+    color: black !important;
+}
+
+
+.navbar-brand{
+    padding: 0px !important;
+
+}
+
+.navbar {
+    padding: 0px !important;
+}
+
+
+.line-hov{
+    
+    position: relative;
+    overflow: hidden;
+}
+
+
+.under-line{
+
+    width: 100%;
+    height: 3px;
+    background-color: #1AAFED;
+    position: absolute;
+    bottom: 0px;
+    left: -150px;
+    transition: all 1s;
+}
+
+.line-hov:hover .under-line{
+
+    width: 100%;
+    height: 3px;
+    background-color: #1AAFED;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+.line-hov2{
+    
+    position: relative;
+    overflow: hidden;
+}
+
+
+.under-line2{
+
+    width: 100%;
+    height: 3px;
+    background-color: #1AAFED;
+    position: absolute;
+    bottom: 0px;
+    left: -150px;
+    transition: all 1s;
+}
+
+.line-hov2:hover .under-line2{
+
+    width: 100%;
+    height: 3px;
+    background-color: #1AAFED;
+    position: absolute;
+    bottom: 0px;
+    left: -50px;
+}
+
+
+header{
+    width: 100%;
+    height: 350px;
+    
+    background-image: url(../imgs/Mask\ Group\ 2.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+  position: relative;
+}
+
+.layer{
+position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0 ,0 ,0.2 );
+}
+
+
+.Discover h1{
+   color: white;
+   font-family: sherlyn;
+   font-size: 70px;
+}
+
+.value h3 {
+    color: white;
+    font-family: SF-UI-DISPLAY;
+}
+
+.head-butn{
+    position: absolute;
+    bottom: 0px;
+}
+
+.head-butn1{
+    border: none;
+    background-color: #1AAFED;
+    color: white;
+    font-family: SF-UI-DISPLAY;
+    font-size: 18px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+
+.head-butn1:hover{
+     background-color: white;
+     color: black;
+}
+
+.head-butn2{
+    border: none;
+    background-color: rgba(0,0 ,0 ,0.4 );
+    color: white;
+    font-family: SF-UI-DISPLAY;
+    font-size: 18px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+
+.head-butn2:hover{
+    background-color: white;
+    color: black;
+}
+.trip-btn{
+border-radius: 25px;
+ background-color: #505050;
+ font-family: SF-UI-DISPLAY;
+ font-size: 16px;
+ border: none;
+ color: #ABABAB;
+width: 150px;
+height: 40px;
+
+}
+
+.trip-btn:hover{
+    background-color: #1AAFED;
+    color: white;
+}
+
+
+
+.cntnr2{
+
+border-top: solid 2px #B9B9B9;
+border-bottom: solid 2px #B9B9B9;
+border-left: solid 2px #B9B9B9;
+border-top-left-radius: 25px;
+border-bottom-left-radius: 25px;
+background-color: white;
+
+
+display: flex ;
+justify-content:center;
+align-items:center;
+
+}
+
+.booking-cnctr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+
+.bg-abyad{
+ font-size: 30px;
+ 
+    padding:30px 10px;
+    background-color: #1AAFED;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.bg-abyad button {
+    background-color: transparent;
+    border: none;
+
+}
+
+.fo-colr{
+
+color: white;
+}
+
+.brdr-Depart{
+
+    border-left: solid 1.5px #DBDBDB;
+    padding:30px 10px;
+}
+
+.brdr-remove{
+    border: none;
+}
+
+.exch-btn{
+
+    border: none;
+    background-color: transparent;
+    color: #1AAFED;
+    font-weight: 700;
+}
+
+.bg-difr{
+    background-color: #F7F7F7;
+
+}
+
+.plan-colr{
+    color:#1AAFED ;
+    font-size: 25px;
+}
+.brdr-botm{
+    height: 3px;
+    background-color: #1AAFED;
+    margin: auto;
+}
+
+.top h2{
+
+    font-family: SF-UI-DISPLAY;
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.RIYADH{
+    background-image: url(../imgs/RIYADH.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 250px;
+    color: white;
+    
+    }
+
+    .texxt h4 {
+        font-weight: 400;
+    }
+    .texxt h5 {
+        font-weight: 400;
+    }
+
+    .layer2{
+        position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0 ,0 ,0.3 );
+        }
+
+        .brdr-top{
+            border-top: solid 1px white;
+        }
+
+.texxt{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+ .brdr-bttm{
+     border-bottom:  solid 1px white; 
+ }
+
+.DUBAI{
+    background-image: url(../imgs/DUBAI.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 250px;
+    color: white;
+    
+    }
+
+    .texxt a{
+        text-decoration:none!important;
+        color: white;
+    }
+
+    .brdr-bttm a{
+        text-decoration:none!important;
+        color: white;
+    }
+
+
+
+    .PYRAMDIS{
+        background-image: url(../imgs/PYRAMIDS.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 250px;
+        color: white;
+        
+        }
+        
+
+        .SHARM{
+
+            
+                background-image: url(../imgs/sharm.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                position: relative;
+                height: 250px;
+                color: white;
+                
+                }
+        
+.LONDON{
+
+            
+    background-image: url(../imgs/london.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 250px;
+    color: white;
+    
+    }
+
+    .BARCELONA{
+
+            
+        background-image: url(../imgs/SPAIN.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 250px;
+        color: white;
+        
+        }
+
+        .DOWNTOWN{
+
+            
+            background-image: url(../imgs/DOWNTOWN.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            height: 250px;
+            color: white;
+            
+            }
+
+            .texxt a:hover{
+                color: #1AAFED;
+            }
+
+            .infoo a{
+                text-decoration: none;
+                color: white;
+            }
+            .infoo a:hover{
+                color: black;
+            }
+         
+
+
+            .infoo i{
+
+                font-size: 45px;
+                color: white;
+            }
+
+            .infoo h4 {
+                font-family: SF-UI-DISPLAY;
+               
+
+
+            }
+
+            .infoo p{
+                font-family: SF-UI-DISPLAY;
+                color: white;
+
+            }
+
+            .bg-look{
+
+                background-color: #1AAFED;
+            }
+
+            .top-country a{
+
+                text-decoration: none;
+                color: black;
+               
+            }
+
+            .top-country a:hover{
+                color:#1AAFED ;
+            }
+
+            .top-country h6{
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+
+            .whats-div{
+                position: relative;
+            }
+            .whats-icon{
+                font-size: 80px; 
+                color: #08CE5D !important;
+                position: absolute;
+                right: 0px;
+                bottom: 0px;
+            }
+
+            .whats-icon a{
+                color: #08CE5D !important;
+            }
+
+            .bottom-footer{background-color: #2B2B2B;
+
+            }
+            footer{ background-color: #2B2B2B;
+                border-bottom: solid 1px #808080;
+
+            }
+
+           .footerr a {
+               text-decoration: none;
+               color: white;
+
+
+           }
+
+           .footerr p{
+            margin-top: 30px;
+            margin-bottom: 10px;
+
+           }
+
+           .Learn{
+               background-color: transparent;
+               border: none;
+               padding-left: 0px;
+               color: #A6A6A6;
+               font-size: 16px;
+           }
+
+           .footerr a:hover{
+
+            color:#1AAFED
+           }
+
+           .footerr button:hover{
+
+            color:#1AAFED
+           }
+
+           .social-icons i{
+
+            color:#2B2B2B;
+            font-size: 30px;
+           }
+
+           .bottom-footer h6 {
+               color: white;
+               font-weight: 200;
+           }
+
+
+
+
+           
+
+
+
+           
+
+
+.touch-icon a { text-decoration: none;}
+.touc-icon-circle  { width: 50px; height: 50px;  ; background-color: white; transition: all 0.5s; color:white ;}
+
+.touc-icon-circle:hover { width: 50px; height: 50px; border:solid 4px white  ; background-color: #1AAFED; color: white; }
+
+
+
+
+
+
+
+
+@media(max-width:1200px){
+
+
+    .text-nos{
+        text-align: right;
+    }
+
+
+
+    .cntnr2{
+        
+        border: solid 2px #B9B9B9;
+       
+        
+        border-radius: 25px;
+        background-color: white;
+        display: flex;
+       flex-direction: column;
+       align-items: stretch;
+        }
+    
+
+        .brdr-Depart{
+
+            border: solid 1.5px #DBDBDB;
+            padding:10px 5px;
+            border-radius: 25px;
+            margin: 5px 5px;
+        }
+        .brdr-media{
+
+            border: solid 1.5px #DBDBDB;
+            padding:10px 5px;
+            border-radius: 25px;
+            margin: 5px 5px;
+        }
+
+
+        .bg-abyad{
+            font-size: 30px;
+            margin-left: 50px;
+            margin-right: 50px;
+               padding:10px 20px;
+               background-color: #1AAFED;
+               border-radius: 25px;
+               margin-top: 10px
+               ;
+               text-align: center;
+               
+           }
+           .bg-abyad button {
+               background-color: transparent;
+               border: none;
+               
+           
+           }
+           .booking-cnctr{
+            display: flex;
+            flex-direction: column;
+
+            
+
+        } 
+
+        
+
+        .trip-btn{
+            border-radius: 25px;
+             background-color: #505050;
+             font-family: SF-UI-DISPLAY;
+             font-size: 20px;
+             font-weight: 300;
+             border: none;
+             color: #ABABAB;
+            width: 170px;
+            height: 55px;
+            
+            }
+            .value h3 {
+
+                font-size:30px ;
+            }
+            .Discover h1 {
+                font-size: 70px;
+            }
+            .top h2{
+                font-size: 35px;
+            }
+
+
+            .head-butn1{
+                border: none;
+                background-color: #1AAFED;
+                color: white;
+                font-family: SF-UI-DISPLAY;
+                font-size: 25px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            padding:20px 25px ;
+            }
+            
+        
+            
+            .head-butn2{
+                border: none;
+                background-color: rgba(0,0 ,0 ,0.4 );
+                color: white;
+                font-family: SF-UI-DISPLAY;
+                font-size: 25px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            padding:20px 25px ;
+            }
+
+            .exch-btn{
+
+                border: none;
+                background-color: transparent;
+                color: #1AAFED;
+                font-weight: 700;
+                font-size: 50px;
+            }
+      
+.brdr-Depart i{
+    font-size: 40px;
+    margin:0px 10px;
+}
+.infoo i {
+
+    font-size: 5rem;
+}
+
+.infoo h4 {
+
+    font-size: 3rem;
+}
+
+.infoo p {
+
+    font-size: 1.5rem;
+}
+
+.plan-colr {
+    font-size: 40px;
+}
+.top h4{
+    font-size: 30px;
+}
+            
+            input,
+            input::-webkit-input-placeholder {
+                font-size: 35px;
+                line-height: 3;
+            }
+
+            .test{
+               
+               display: flex;
+               justify-content: center;
+                margin: 0px;
+            }
+
+            .top-country h6 { 
+
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+            .footerr p {
+
+                font-size: 25px;
+font-weight: 600;
+            }
+
+            .footerr button {
+                font-size: 25px;
+                font-weight: 600;
+            }
+         
+}
+
+
+.text-nos{
+    text-align: center;
+}
+
+.wdth{
+   text-align: center;
+}
